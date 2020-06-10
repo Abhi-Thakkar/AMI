@@ -1,0 +1,14 @@
+
+version: 2
+jobs:
+  build:
+    docker:
+      - image: hashicorp/packer:1.1.1
+    steps:
+      - checkout
+      - run:
+          name: Validate AMI
+          command: packer validate ami.json
+      - run:
+          name: Build AMI
+          command: packer build ami.json
