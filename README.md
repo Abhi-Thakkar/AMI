@@ -1,4 +1,4 @@
-# AMI Packer
+# AMI PACKER
 
 
 Packer is a tool for building identical machine images for multiple platforms
