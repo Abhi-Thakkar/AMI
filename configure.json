@@ -24,9 +24,9 @@
                 "service_address":":8125",
                 "metrics_collection_interval":10
                 
-              }
-           }
+            }
         }
+    }
      
 
 }
