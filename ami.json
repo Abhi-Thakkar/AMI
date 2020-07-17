@@ -46,6 +46,8 @@
             "sudo apt update",
             "sudo apt install nginx -y",
             "sudo apt install python3-pip -y",
+            "sudo apt-get install libpq-dev python-dev -y",
+            "sudo apt-get install python3-venv -y",
             "sudo apt install unzip -y",
             "sudo apt-get install ruby -y",
             "sudo apt-get install wget -y",
